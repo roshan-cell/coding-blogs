@@ -8,4 +8,4 @@ const slug  = () => {
     return <div> {slug} </div>
 };
 
-export default slug ;
+export default slug ; 
