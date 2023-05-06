@@ -24,15 +24,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className={styles.mainnav}>
-        <ul>
-          <Link href="/"> <li>Home</li>   </Link>
-          <Link href="/about"> <li>About</li> </Link>
-          <Link href="/blog"> <li>Blog</li> </Link>
-          <Link href="contact"> <li>Contact</li> </Link>
-        </ul>
-      </nav>
-
       <main className={styles.main}>
       
         <h1 className={styles.title}>
@@ -49,20 +40,22 @@ export default function Home() {
           />
       </div>
 
+      <div>
         <h2 className={styles.description}>
-          A blog for hunting coders by a hunting coder
-        </h2>
+            A blog for hunting coders by a hunting coder
+          </h2>
 
-        <h2>Popular Blogs</h2>
-        <h3 className={styles.description}>
-          A blog for hunting coders by a hunting coder
-        </h3>
-        <h3 className={styles.description}>
-          A blog for hunting coders by a hunting coder
-        </h3>
-        <h3 className={styles.description}>
-          A blog for hunting coders by a hunting coder
-        </h3>
+          <h2>Popular Blogs</h2>
+          <h3 className={styles.description}>
+            A blog for hunting coders by a hunting coder
+          </h3>
+          <h3 className={styles.description}>
+            A blog for hunting coders by a hunting coder
+          </h3>
+          <h3 className={styles.description}>
+            A blog for hunting coders by a hunting coder
+          </h3>
+      </div>
 
       </main>
 
