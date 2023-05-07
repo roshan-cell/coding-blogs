@@ -2,6 +2,9 @@ import React from 'react'
 import { useRouter } from 'next/router';
 import styles from "../../styles/Blogpost.module.css"
 
+// Find the corresponding file to slug
+// Populate and display them
+
 const slug  = () => {
   const router = useRouter();
   const {slug} = router.query

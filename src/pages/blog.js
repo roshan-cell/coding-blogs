@@ -2,6 +2,9 @@ import React from 'react'
 import styles from "../styles/Blog.module.css"
 import Link from 'next/link'
 
+// 1 - Collect all the fields from blogdata directory
+// 2 - Iterate throguh them and display
+
 const Blog = () => {
   return (
     <div className={styles.container}>
